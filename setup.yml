@@ -1,0 +1,7 @@
+---
+- name: TESTE SETUP
+  hosts: all
+  become: true
+
+  tasks:
+    - setup:	
