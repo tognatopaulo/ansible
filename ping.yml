@@ -5,4 +5,8 @@
 
   tasks:
     - name:
-      ping:	
+      ping:
+      
+    - name: Debug teste
+      debug:
+        msg: "Teste {{ teste }}"
